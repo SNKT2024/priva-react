@@ -1,0 +1,9 @@
+.card {
+  position: relative;
+  box-shadow: 0 0 5px black;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 10%;
+}

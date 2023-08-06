@@ -1,0 +1,38 @@
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.email {
+  font-weight: 200;
+  font-size: small;
+}
+
+.email:hover {
+  text-decoration: underline;
+  text-decoration-skip: none;
+}
+
+.contact {
+  font-weight: 200;
+  font-size: small;
+}
+
+.social-links {
+  display: flex;
+}
+
+.socialicons {
+  color: #b6e1e7;
+}
+.socialicons:hover {
+  color: white;
+}
+
+.contact-info {
+  max-width: 100%;
+}
