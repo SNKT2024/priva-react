@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/color.css";
 import "../css/topbar.css";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -14,28 +14,24 @@ export default function Topbar() {
     <>
       <section id="topbar" className="topbar bgc-top d-flex align-items-center">
         <Container className="p-1 d-flex justify-content-center justify-content-md-between">
-          <div className="contact-info d-flex align-items-center ms-3 ">
-            <span className="me-1 d-flex text-center">
-              <EmailIcon className="text-white  " fontSize="string"></EmailIcon>
-            </span>
-            <span>
-              <a href="mailto:hiluxlabs@outlook.com" className="email">
-                hiluxlabs@outlook.com
-              </a>
-            </span>
-
-            <span className="text-white contact d-block ms-3">
-              <LocationOnIcon fontSize="string" />
-            </span>
-            <span className="text-center text-white contact">
-              {" "}
-              Hinjewadi, Pune
-            </span>
+          <div className="contact">
+            <div className="email ">
+              <EmailIcon fontSize="small" className="text-white" />
+              <p className="text-white m-auto ">
+                {" "}
+                <a href="mailto:hiluxlabs@outlook.com">hiluxlabs@outlook.com</a>
+              </p>
+            </div>
+            <div className="add ms-3  ">
+              <LocationOnIcon fontSize="small" className="text-white" />
+              <p className="text-white m-auto "> Hinjewadi, Pune</p>
+            </div>
           </div>
+
           <div className="social-links d-none d-lg-block d-md-block d-flex align-items-center me-3">
-            <a href="" className="me-3 socialicons">
+            {/* <a href="" className="me-3 socialicons">
               <TwitterIcon fontSize="string" />
-            </a>
+            </a> */}
             <a href="" className="me-3 socialicons">
               <FacebookIcon fontSize="string" />
             </a>

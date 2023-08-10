@@ -16,10 +16,10 @@ export default function Intro2() {
           <Row lg={6} md={2}>
             <Col lg={6} className="title-container p-0 m-0 " md={{ order: 1 }}>
               <div className="title text-center">
-                <h1 className="mb-1">
+                <h1 className="mb-1 text-we">
                   WE ARE EXPOTER{" "}
                   <span>
-                    <PublicIcon fontSize="inherit" className="earth" />
+                    <PublicIcon fontSize="inherit" className="earth mb-2" />
                   </span>
                 </h1>
 
@@ -34,7 +34,7 @@ export default function Intro2() {
             </Col>
             <Col lg={6} md={{ order: 12 }}>
               <div className="img-intro text-center">
-                <Image src={img1} className="img-fluid image-lab " />
+                <Image src={img1} className="img-fluid image-lab rounded" />
               </div>
             </Col>
           </Row>

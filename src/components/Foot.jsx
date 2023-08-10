@@ -8,22 +8,22 @@ import "../css/foot.css";
 export default function Foot() {
   return (
     <>
-      <footer className="footer">
+      <footer className="footer ">
         <Container fluid className="footer-container ">
-          <Row className="gy-4 footer-rowj">
-            <Col lg={5} md={12} className="footer-info">
+          <Row className="gy-4 footer-row">
+            <Col lg={5} md={12} className="footer-info ">
               <a href="" className="d-flex align-items-center logo">
                 <span>HILUX</span>
               </a>
               <div className="social-links d-flex mt-4">
-                <a href="" className="me-3 socialicons">
+                <a href="" className="me-2 ">
                   <TwitterIcon fontSize="string" />
                 </a>
-                <a href="" className="me-3 socialicons">
+                <a href="" className="me-2 ">
                   <FacebookIcon fontSize="string" />
                 </a>
-                <a href="" className="me-3">
-                  <InstagramIcon fontSize="string socialicons" />
+                <a href="" className="me-2">
+                  <InstagramIcon fontSize="string " />
                 </a>
                 <a href="" className="socialicons">
                   <LinkedInIcon fontSize="string" />

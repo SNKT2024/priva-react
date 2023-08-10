@@ -20,7 +20,11 @@ export default function Intro() {
             </Col>
             <Col lg={6}>
               <div className="img-intro text-center">
-                <Image src={img1} className="img-fluid image-lab" />
+                <Image
+                  src={img1}
+                  className="img-fluid image-lab rounded"
+                  fluid
+                />
               </div>
             </Col>
           </Row>

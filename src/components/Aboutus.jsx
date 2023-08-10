@@ -9,9 +9,9 @@ export default function Aboutus() {
   return (
     <>
       {" "}
-      <Container className="wrapper mt-4 ">
+      <Container className="wrapper mt-4 mb-3 ">
         <div className="mt-3 p-3 ">
-          <Row className="" md={1}>
+          <Row className="" md={2}>
             <Col
               lg={6}
               className="d-flex align-items-center justify-content-center"

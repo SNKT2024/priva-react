@@ -11,22 +11,25 @@ import { Col, Container, Row } from "react-bootstrap";
 import Accreditations from "./Accreditations";
 import Aboutus from "./Aboutus";
 import Foot from "./Foot";
+import Introtemp from "./Introtemp";
+import { BrowserRouter } from "react-router-dom";
+import { Element } from "react-scroll";
+import Temp from "./Temp";
 
 export default function Home() {
   return (
     <>
-      <Topbar />
-      <Navigation />
       <Intro />
+
+      {/* <Introtemp /> */}
       <Intro2 />
 
       <Why />
 
       <Manufacture />
+      <Accreditations />
 
       {/* <Aboutus /> */}
-
-      <Foot />
     </>
   );
 }

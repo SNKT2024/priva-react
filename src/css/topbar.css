@@ -3,23 +3,9 @@ a {
   color: white;
 }
 
-a:hover {
+.contact a:hover {
   text-decoration: none;
-}
-
-.email {
-  font-weight: 200;
-  font-size: small;
-}
-
-.email:hover {
   text-decoration: underline;
-  text-decoration-skip: none;
-}
-
-.contact {
-  font-weight: 200;
-  font-size: small;
 }
 
 .social-links {
@@ -35,4 +21,39 @@ a:hover {
 
 .contact-info {
   max-width: 100%;
+}
+
+@media (max-width: 320px) {
+  .email {
+    font: 10%;
+  }
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+@media (max-width: 320px) {
+  .contact {
+    display: block;
+  }
 }
